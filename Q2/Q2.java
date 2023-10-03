@@ -1,3 +1,5 @@
+//Palindrome Number: 
+
 package Q2;
 import java.util.*;
 
@@ -21,7 +23,7 @@ class Solution2{
         s1.append(x);
         s2.append(x);
         s1.reverse();
-        
+
         return (s1.toString().equals(s2.toString()));
     }
 }
